@@ -5,7 +5,7 @@
 	<name>HA Garage Door</name>
 	<model>HA Garage Door</model>
 	<created>09/10/2023 12:00</created>
-	<modified>11/02/2023 12:00</modified>
+	<modified>11/11/2023 12:00</modified>
 	<version>100</version>
 	<control>lua_gen</control>
 	<controlmethod>IP</controlmethod>

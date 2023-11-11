@@ -115,6 +115,9 @@ function Parse(data)
             RELAY_STATE = state
             C4:SendToProxy(2, 'CLOSED', {}, "NOTIFY")
             C4:SendToProxy(3, 'OPENED', {}, "NOTIFY")
+        elseif state == "opening" or state == "closing" then
+            C4:SendToProxy(2, 'OPENED', {}, "NOTIFY")
+            C4:SendToProxy(3, 'OPENED', {}, "NOTIFY")
         end
     end
 end
